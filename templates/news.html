@@ -1,0 +1,24 @@
+{% extends "layouts/main.html" %}
+
+{% block head %}
+{% endblock %}
+
+{% block content%}
+
+
+</body>
+<h5>{{greetings}}</h5>
+<div>
+    {% for tex in text%} 
+        <ol>
+            <li><a href="{{tex[1]}}">{{ tex[0] }}</a></li>
+        </ol>
+    {% endfor %}
+    
+</div>
+
+</body>
+
+
+
+{% endblock %}

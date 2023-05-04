@@ -1,0 +1,23 @@
+{% extends "layouts/main.html" %}
+
+{% block head %}
+{% endblock %}
+
+{% block content%}
+
+
+</body>
+<h5>{{greetings}}</h5>
+<div>
+    <form action="/" method="POST">
+        <label for="fname">Ticker symbol:</label>
+        <input type="text" id="fname" name="ticker"><br><br>
+        <input type="submit" value="submit">
+    </form>
+</div>
+
+</body>
+
+
+
+{% endblock %}
